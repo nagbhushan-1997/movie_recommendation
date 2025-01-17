@@ -26,7 +26,20 @@ pip install pandas numpy scikit-learn flask
 ## Usage
 
 1. Clone the repository:
+You can also install the required libraries by running:
 
+```bash
+pip install -r requirements.txt
+```
+
+Make sure you have a `requirements.txt` file in the project directory with the following content:
+
+```plaintext
+pandas
+numpy
+scikit-learn
+flask
+```
 ```bash
 git clone https://github.com/yourusername/movie_recommendation_content_based_system.git
 ```
